@@ -82,6 +82,21 @@ public class SigninPageTest extends Base {
 		Assert.assertTrue(mydetailspage.verifyEmailId(email));
 
 	}
+	
+	
+	/**
+	 * 
+	 * Test will verify the sign out from application 
+	 * 
+	 */
+	@Test()
+	public void testSignOut() {
+		
+		signinpage.simpleLoginIn();
+		signinpage.simplelogOut();
+		
+	}
+	
 
 	@AfterMethod
 	public void teardown() {

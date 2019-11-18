@@ -2,8 +2,10 @@ package org.Com.Qa.Pages;
 
 import org.Com.Qa.Base.Base;
 import org.Com.Qa.Utils.TimeUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -200,6 +202,16 @@ public class SigninPage extends Base {
 		setLoginEmailId(prop.getProperty("username"));
 		setLoginPassword(prop.getProperty("password"));
 		clickLoginBtn();
+	}
+	
+
+	
+	public void simplelogOut() {
+		
+		Actions actions = new Actions(driver);
+		actions.moveToElement(driver.findElement(By.xpath("//a[@class='btn grey dropdown profile-btn']"))).perform();
+		actions.moveToElement(driver.findElement(By.linkText("sign out"))).perform();
+
 	}
 
 }
