@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="302971" started-at="2019-11-18T09:40:49 CET" finished-at="2019-11-18T09:45:52 CET">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="302971" started-at="2019-11-18T09:40:49 CET" finished-at="2019-11-18T09:45:52 CET">
+      <class name="org.Com.Qa.PageTest.HomePageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:org.Com.Qa.PageTest.HomePageTest@27c6e487]" name="testSetUp" is-config="true" duration-ms="20177" started-at="2019-11-18T09:40:50 CET" finished-at="2019-11-18T09:41:10 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testTitle()[pri:1, instance:org.Com.Qa.PageTest.HomePageTest@27c6e487]" name="testTitle" duration-ms="46" started-at="2019-11-18T09:41:10 CET" finished-at="2019-11-18T09:41:10 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.Com.Qa.PageTest.HomePageTest@27c6e487]" name="teardown" is-config="true" duration-ms="2047" started-at="2019-11-18T09:41:10 CET" finished-at="2019-11-18T09:41:12 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:org.Com.Qa.PageTest.HomePageTest@27c6e487]" name="testSetUp" is-config="true" duration-ms="16771" started-at="2019-11-18T09:41:12 CET" finished-at="2019-11-18T09:41:29 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testlogo()[pri:1, instance:org.Com.Qa.PageTest.HomePageTest@27c6e487]" name="testlogo" duration-ms="137" started-at="2019-11-18T09:41:29 CET" finished-at="2019-11-18T09:41:29 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.Com.Qa.PageTest.HomePageTest@27c6e487]" name="teardown" is-config="true" duration-ms="2137" started-at="2019-11-18T09:41:29 CET" finished-at="2019-11-18T09:41:31 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.Com.Qa.PageTest.HomePageTest -->
+      <class name="org.Com.Qa.PageTest.SigninPageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:org.Com.Qa.PageTest.SigninPageTest@6385cb26]" name="testSetUp" is-config="true" duration-ms="16442" started-at="2019-11-18T09:43:40 CET" finished-at="2019-11-18T09:43:57 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testLoginNegetiveCases()[pri:1, instance:org.Com.Qa.PageTest.SigninPageTest@6385cb26]" name="testLoginNegetiveCases" duration-ms="4552" started-at="2019-11-18T09:43:57 CET" finished-at="2019-11-18T09:44:01 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginNegetiveCases -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.Com.Qa.PageTest.SigninPageTest@6385cb26]" name="teardown" is-config="true" duration-ms="1780" started-at="2019-11-18T09:44:01 CET" finished-at="2019-11-18T09:44:03 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:org.Com.Qa.PageTest.SigninPageTest@6385cb26]" name="testSetUp" is-config="true" duration-ms="16332" started-at="2019-11-18T09:44:03 CET" finished-at="2019-11-18T09:44:19 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.Com.Qa.PageTest.SigninPageTest@6385cb26]" name="testLogin" duration-ms="5779" started-at="2019-11-18T09:44:19 CET" data-provider="getLoginData" finished-at="2019-11-18T09:44:25 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mgr@emailid.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infy@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Data01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.Com.Qa.PageTest.SigninPageTest@6385cb26]" name="teardown" is-config="true" duration-ms="2052" started-at="2019-11-18T09:44:25 CET" finished-at="2019-11-18T09:44:27 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.Com.Qa.PageTest.SigninPageTest -->
+      <class name="org.Com.Qa.PageTest.ShopingCartPageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:org.Com.Qa.PageTest.ShopingCartPageTest@38364841]" name="testSetUp" is-config="true" duration-ms="15063" started-at="2019-11-18T09:44:27 CET" finished-at="2019-11-18T09:44:42 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testSearchandAddProductToCart(java.lang.String, java.lang.String)[pri:4, instance:org.Com.Qa.PageTest.ShopingCartPageTest@38364841]" name="testSearchandAddProductToCart" duration-ms="25755" started-at="2019-11-18T09:44:42 CET" data-provider="getShoppingCartData" finished-at="2019-11-18T09:45:08 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sleeping mask dalmatian]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchandAddProductToCart -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.Com.Qa.PageTest.ShopingCartPageTest@38364841]" name="teardown" is-config="true" duration-ms="1967" started-at="2019-11-18T09:45:08 CET" finished-at="2019-11-18T09:45:10 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:org.Com.Qa.PageTest.ShopingCartPageTest@38364841]" name="testSetUp" is-config="true" duration-ms="15908" started-at="2019-11-18T09:45:10 CET" finished-at="2019-11-18T09:45:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testSearchandAddProductToCart(java.lang.String, java.lang.String)[pri:4, instance:org.Com.Qa.PageTest.ShopingCartPageTest@38364841]" name="testSearchandAddProductToCart" duration-ms="24343" started-at="2019-11-18T09:45:26 CET" data-provider="getShoppingCartData" finished-at="2019-11-18T09:45:50 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paper table runner Christmas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchandAddProductToCart -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.Com.Qa.PageTest.ShopingCartPageTest@38364841]" name="teardown" is-config="true" duration-ms="2271" started-at="2019-11-18T09:45:50 CET" finished-at="2019-11-18T09:45:52 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.Com.Qa.PageTest.ShopingCartPageTest -->
+      <class name="org.Com.Qa.PageTest.RegisterPageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="testSetUp" is-config="true" duration-ms="16279" started-at="2019-11-18T09:41:31 CET" finished-at="2019-11-18T09:41:47 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testSignInRegisterNewUserNegtiveCases()[pri:1, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="testSignInRegisterNewUserNegtiveCases" duration-ms="6564" started-at="2019-11-18T09:41:47 CET" finished-at="2019-11-18T09:41:54 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInRegisterNewUserNegtiveCases -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="teardown" is-config="true" duration-ms="1778" started-at="2019-11-18T09:41:54 CET" finished-at="2019-11-18T09:41:56 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="testSetUp" is-config="true" duration-ms="16777" started-at="2019-11-18T09:41:56 CET" finished-at="2019-11-18T09:42:12 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testRegisterNewUserNegetiveCases()[pri:2, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="testRegisterNewUserNegetiveCases" duration-ms="9654" started-at="2019-11-18T09:42:12 CET" finished-at="2019-11-18T09:42:22 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterNewUserNegetiveCases -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="teardown" is-config="true" duration-ms="1819" started-at="2019-11-18T09:42:22 CET" finished-at="2019-11-18T09:42:24 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="testSetUp" is-config="true" duration-ms="16541" started-at="2019-11-18T09:42:24 CET" finished-at="2019-11-18T09:42:41 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testMissMatchPassword(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="testMissMatchPassword" duration-ms="7090" started-at="2019-11-18T09:42:41 CET" data-provider="getIncorrectPwdData" finished-at="2019-11-18T09:42:48 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mgr3@emailid.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mrg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sevaj]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[01-01-1993]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dummey]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[DummeyStreet]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1183]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Amsterdam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Infy@1234]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Infy@12345]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[The two passwords do not match.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Data02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissMatchPassword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="teardown" is-config="true" duration-ms="2221" started-at="2019-11-18T09:42:48 CET" finished-at="2019-11-18T09:42:50 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="testSetUp" is-config="true" duration-ms="15151" started-at="2019-11-18T09:42:50 CET" finished-at="2019-11-18T09:43:05 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testMissMatchPassword(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="testMissMatchPassword" duration-ms="7165" started-at="2019-11-18T09:43:05 CET" data-provider="getIncorrectPwdData" finished-at="2019-11-18T09:43:13 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mgr3@emailid.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mrg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sevaj]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[01-01-1993]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dummey]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[DummeyStreet]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1183]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Amsterdam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Infy@]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Infy@]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[enter a password of at least 8 characters]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Data02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissMatchPassword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="teardown" is-config="true" duration-ms="1897" started-at="2019-11-18T09:43:13 CET" finished-at="2019-11-18T09:43:14 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="testSetUp" is-config="true" duration-ms="15229" started-at="2019-11-18T09:43:15 CET" finished-at="2019-11-18T09:43:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testCreateNewUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="testCreateNewUser" duration-ms="8377" started-at="2019-11-18T09:43:30 CET" data-provider="getCreateUserData" finished-at="2019-11-18T09:43:38 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mgr4@emailid.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mrg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sevaj]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[01-01-1993]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dummey]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[DummeyStreet]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1183]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Amsterdam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Infy@1234]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Infy@1234]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Data01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.Com.Qa.PageTest.RegisterPageTest@49070868]" name="teardown" is-config="true" duration-ms="1948" started-at="2019-11-18T09:43:38 CET" finished-at="2019-11-18T09:43:40 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.Com.Qa.PageTest.RegisterPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
